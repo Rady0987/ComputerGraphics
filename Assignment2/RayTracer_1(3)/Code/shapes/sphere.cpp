@@ -32,9 +32,9 @@ Hit Sphere::intersect(Ray const &ray)
 
     /**************** OUR CODE *************************/
     Vector N;
-    N.x = 0;
-    N.y = 0;
-    N.z = 0;
+    // N.x = 0;
+    // N.y = 0;
+    // N.z = 0;
 
     double A = (ray.D).dot(ray.D); // d*d
     double B = (ray.D).dot(ray.O-position); // 2d * (e - c)
@@ -43,16 +43,20 @@ Hit Sphere::intersect(Ray const &ray)
     double D = sqrt((B*B) - (A*C));
     double t;
 
-    if (D < 0) {
+    if (D < 0) { // test how many intersections there are by checking discriminant
         return Hit::NO_HIT();
     } if (D == 0) { // there is only one point in which the ray intersect the sphere
         t = -B/A;
-        return Hit(t, N);
+        // return (t > 0 ? Hit(t, N) : Hit::NO_HIT()) ;
     } else { // there are two points and the smallest t is the one closest to the eye/camera
-        double t1 = (-B + D)/A;
+        double t1 = (-B + D)/A; // compute both values for t with the quadratic formulas
         double t2 = (-B - D)/A;
-        t = (t1 < t2 ? t1 : t2);
-        return Hit(t, N);
+        if (min(t1,t2) > 0) { // if both intersections are in front of the camera then use the closest one
+            t = min(t1,t2);
+        } else { // if the camera is in the sphere then use the one in front of the camera 
+            t = max(t1,t2);
+        }
+        // return (t > 0 ? Hit(t, N) : Hit::NO_HIT()); // if both are behind camera then dont call hit 
     }
 
     /****************************************************
@@ -64,9 +68,15 @@ Hit Sphere::intersect(Ray const &ray)
     * Insert calculation of the sphere's normal at the intersection point.
     ****************************************************/
 
-    //  Vector N /* = ... */; //use LATER
+    N = ((ray.at(t))-position).normalized(); 
+    Vector V = -ray.D;
 
-    return Hit(t, N);
+    if (V.dot(N) >= 0) {
+        return (t > 0 ? Hit(t, N) : Hit::NO_HIT());
+    } else {
+        return Hit::NO_HIT();
+    }
+    
 }
 
 Sphere::Sphere(Point const &pos, double radius)

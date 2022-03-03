@@ -52,9 +52,19 @@ Color Scene::trace(Ray const &ray)
     *        pow(a,b)           a to the power of b
     ****************************************************/
 
-    Color color = material.color;               // placeholder
+    // Color color = material.color;               // placeholder
 
-    return color;
+    // return color;
+
+    /************** OUR CODE **************************/
+    Color color = material.color * material.ka; // added the ambient intensity
+
+    Color C =  (N + 1)/2;  // normal mapping
+
+    return C;
+
+
+
 }
 
 void Scene::render(Image &img)
