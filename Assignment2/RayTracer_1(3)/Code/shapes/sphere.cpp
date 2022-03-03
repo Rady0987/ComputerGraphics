@@ -23,25 +23,30 @@ Hit Sphere::intersect(Ray const &ray)
     ****************************************************/
 
     // Placeholder for actual intersection calculation.
-    Vector originToPosition = (position - ray.O).normalized();
-    if (originToPosition.dot(ray.D) < 0.999)
-        return Hit::NO_HIT();
+    // Vector originToPosition = (position - ray.O).normalized();
+    // if (originToPosition.dot(ray.D) < 0.999)
+    //     return Hit::NO_HIT();
 
-    double t = 1000;
+    // double t = 1000;
 
 
     /**************** OUR CODE *************************/
+    Vector N;
+    N.x = 0;
+    N.y = 0;
+    N.z = 0;
 
     double A = (ray.D).dot(ray.D); // d*d
     double B = (ray.D).dot(ray.O-position); // 2d * (e - c)
     double C = (ray.O-position).dot(ray.O-position) - (r*r); // (e - c) * (e - c) - R*R
 
-    double D = sqrt((B*B) - (A*C))
+    double D = sqrt((B*B) - (A*C));
+    double t;
 
     if (D < 0) {
         return Hit::NO_HIT();
-    } elseif (D == 0) { // there is only one point in which the ray intersect the sphere
-        double t = -B/A;
+    } if (D == 0) { // there is only one point in which the ray intersect the sphere
+        t = -B/A;
         return Hit(t, N);
     } else { // there are two points and the smallest t is the one closest to the eye/camera
         double t1 = (-B + D)/A;
@@ -49,7 +54,6 @@ Hit Sphere::intersect(Ray const &ray)
         t = (t1 < t2 ? t1 : t2);
         return Hit(t, N);
     }
-
 
     /****************************************************
     * RT1.2: NORMAL CALCULATION
@@ -60,7 +64,7 @@ Hit Sphere::intersect(Ray const &ray)
     * Insert calculation of the sphere's normal at the intersection point.
     ****************************************************/
 
-    Vector N /* = ... */;
+    //  Vector N /* = ... */; //use LATER
 
     return Hit(t, N);
 }
