@@ -8,18 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/image.cpp" "CMakeFiles/ray.dir/Code/image.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/image.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/lode/lodepng.cpp" "CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/main.cpp" "CMakeFiles/ray.dir/Code/main.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/main.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/objloader.cpp" "CMakeFiles/ray.dir/Code/objloader.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/objloader.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.cpp" "CMakeFiles/ray.dir/Code/raytracer.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/raytracer.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/scene.cpp" "CMakeFiles/ray.dir/Code/scene.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/scene.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.cpp" "CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/mesh.cpp" "CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/quad.cpp" "CMakeFiles/ray.dir/Code/shapes/quad.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/quad.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/sphere.cpp" "CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.cpp" "CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o.d"
-  "/home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.cpp" "CMakeFiles/ray.dir/Code/triple.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/triple.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/image.cpp" "CMakeFiles/ray.dir/Code/image.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/image.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/lode/lodepng.cpp" "CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/main.cpp" "CMakeFiles/ray.dir/Code/main.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/main.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/objloader.cpp" "CMakeFiles/ray.dir/Code/objloader.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/objloader.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.cpp" "CMakeFiles/ray.dir/Code/raytracer.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/raytracer.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/scene.cpp" "CMakeFiles/ray.dir/Code/scene.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/scene.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.cpp" "CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/mesh.cpp" "CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/mesh.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/quad.cpp" "CMakeFiles/ray.dir/Code/shapes/quad.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/quad.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/sphere.cpp" "CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.cpp" "CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/shapes/triangle.cpp.o.d"
+  "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.cpp" "CMakeFiles/ray.dir/Code/triple.cpp.o" "gcc" "CMakeFiles/ray.dir/Code/triple.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,11 +1,11 @@
 CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../object.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../material.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../triple.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../json/json_fwd.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../object.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../material.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../triple.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../json/json_fwd.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -153,9 +153,9 @@ CMakeFiles/ray.dir/Code/shapes/cylinder.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../hit.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../hit.h \
  /usr/include/c++/11/limits \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../ray.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../ray.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
