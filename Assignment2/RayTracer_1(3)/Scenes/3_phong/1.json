@@ -9,7 +9,7 @@
     "Objects": [
         {
             "type": "sphere",
-            "position": [200, 200, 100],
+            "position": [200, 200, 970],
             "radius": 100,
             "material":
             {
