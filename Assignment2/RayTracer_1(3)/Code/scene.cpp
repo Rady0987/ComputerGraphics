@@ -57,20 +57,27 @@ Color Scene::trace(Ray const &ray)
     // return color;
 
     /************** OUR CODE **************************/
-    //Color specularColor = Triple(1.0, 1.0, 1.0); // set the specular color
-    Vector l = (lights[0]->position - hit).normalized(); // create light vector
-    double NL = N.dot(l);
-    Vector R = ((2.0*(NL)) * N - l).normalized(); // create reflection vector
-    double RV = max(0.0, R.dot(V)); // create the dot product of R V for later 
-    double diffuseComponents = max(0.0, N.dot(l))*material.kd; 
-    double specularComponents;
-    if (NL > 0) { // check wether the dot product of N and L is positive
-        specularComponents = (pow(RV, material.n)*material.ks);
-    } else {
-        specularComponents = 0.0;
-    }
-    Color color = material.color * (diffuseComponents + material.ka) + specularComponents; // added the ambient intensity
+    Color color = (material.color * material.ka);
+    int size = sizeof(lights)/sizeof(lights[0]);
+    for (int i = 0; i <= size; i++) {
+        Vector l[size];
+        l[i] = (lights[i]->position - hit).normalized(); // create light vector
 
+        double diffuseComponents[size];
+        diffuseComponents[i] = max(0.0, N.dot(l[i]))*material.kd; 
+
+        double NL = N.dot(l[i]);
+        Vector R[size];
+        R[i] = ((2.0*(NL)) * N - l[i]).normalized(); // create reflection vector
+        double RV = max(0.0, R[i].dot(V)); // create the dot product of R V for later 
+        double specularComponents[size];
+        if (NL > 0) { // check wether the dot product of N and L is positive
+            specularComponents[i] = (pow(RV, material.n)*material.ks);
+        } else {
+            specularComponents[i] = 0.0;
+        }
+        color.operator+=(( diffuseComponents[i]) + specularComponents[i])  ; // added the ambient intensity
+    }
     // Color C =  (N + 1)/2;  // normal mapping
 
     return color;
