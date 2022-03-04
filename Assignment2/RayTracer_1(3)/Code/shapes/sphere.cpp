@@ -47,7 +47,6 @@ Hit Sphere::intersect(Ray const &ray)
         return Hit::NO_HIT();
     } if (D == 0) { // there is only one point in which the ray intersect the sphere
         t = -B/A;
-        // return (t > 0 ? Hit(t, N) : Hit::NO_HIT()) ;
     } else { // there are two points and the smallest t is the one closest to the eye/camera
         double t1 = (-B + D)/A; // compute both values for t with the quadratic formulas
         double t2 = (-B - D)/A;
@@ -56,7 +55,6 @@ Hit Sphere::intersect(Ray const &ray)
         } else { // if the camera is in the sphere then use the one in front of the camera 
             t = max(t1,t2);
         }
-        // return (t > 0 ? Hit(t, N) : Hit::NO_HIT()); // if both are behind camera then dont call hit 
     }
 
     /****************************************************
@@ -68,13 +66,15 @@ Hit Sphere::intersect(Ray const &ray)
     * Insert calculation of the sphere's normal at the intersection point.
     ****************************************************/
 
-    N = ((ray.at(t))-position).normalized(); 
-    Vector V = -ray.D;
+    N = ((ray.at(t))-position).normalized(); // normal vector is created by substracting
+                                            //  the centre of the sphere from the ray intersection point
+    Vector V = -ray.D; // create the view vector
 
-    if (V.dot(N) >= 0) {
+    if (V.dot(N) >= 0) { // check wether the N vector is pointing in the right direction
         return (t > 0 ? Hit(t, N) : Hit::NO_HIT());
     } else {
-        return Hit::NO_HIT();
+        N = -N; // flip N if the ray is coming from inside the sphere
+        return (t > 0 ? Hit(t, N) : Hit::NO_HIT());
     }
     
 }

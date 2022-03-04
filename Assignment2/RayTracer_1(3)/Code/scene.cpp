@@ -57,11 +57,16 @@ Color Scene::trace(Ray const &ray)
     // return color;
 
     /************** OUR CODE **************************/
-    Color color = material.color * material.ka; // added the ambient intensity
+    Vector l = (lights[0]->position - hit).normalized();
+    Vector h = (V+l)/((V+l).length()); // this
+    double NH = max(0.0, N.dot(h));// it fails in one of these 
+    double diffuseComponents = max(0.0, N.dot(l))*material.kd;
+    double specularComponents = (pow(NH, material.n)*material.ks); // or this
+    Color color = material.color * (specularComponents + diffuseComponents + material.ka); // added the ambient intensity
 
-    Color C =  (N + 1)/2;  // normal mapping
+    // Color C =  (N + 1)/2;  // normal mapping
 
-    return C;
+    return color;
 
 
 
