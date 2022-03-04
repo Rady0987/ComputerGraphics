@@ -57,29 +57,30 @@ Color Scene::trace(Ray const &ray)
     // return color;
 
     /************** OUR CODE **************************/
-    Color color = (material.color * material.ka);
-    int size = sizeof(lights)/sizeof(lights[0]);
-    for (int i = 0; i <= size; i++) {
+    Color color;
+    int size = getNumLights();
+    Color Ai = material.color*material.ka;
+    for (int i = 0; i < size; i++) {
         Vector l[size];
         l[i] = (lights[i]->position - hit).normalized(); // create light vector
 
-        double diffuseComponents[size];
-        diffuseComponents[i] = max(0.0, N.dot(l[i]))*material.kd; 
+        Color Di[size];
+        Di[i] = lights[i]->color*(max(0.0, N.dot(l[i]))*material.kd); 
 
         double NL = N.dot(l[i]);
         Vector R[size];
         R[i] = ((2.0*(NL)) * N - l[i]).normalized(); // create reflection vector
-        double RV = max(0.0, R[i].dot(V)); // create the dot product of R V for later 
-        double specularComponents[size];
-        if (NL > 0) { // check wether the dot product of N and L is positive
-            specularComponents[i] = (pow(RV, material.n)*material.ks);
-        } else {
-            specularComponents[i] = 0.0;
-        }
-        color.operator+=(( diffuseComponents[i]) + specularComponents[i])  ; // added the ambient intensity
-    }
-    // Color C =  (N + 1)/2;  // normal mapping
 
+
+        Color Si[size];
+        if (NL > 0) { // check wether the dot product of N and L is positive
+            Si[i] = lights[i]->color*(pow(max(0.0, R[i].dot(V)), material.n)*material.ks);
+        } else {
+            Si[i] = lights[i]->color*0.0;
+        }
+        color = color+ (material.color*Di[i] +  Si[i]);
+    }
+    color.operator+=(Ai);
     return color;
 
 
