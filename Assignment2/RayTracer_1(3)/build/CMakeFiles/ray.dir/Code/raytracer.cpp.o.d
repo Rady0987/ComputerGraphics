@@ -163,6 +163,7 @@ CMakeFiles/ray.dir/Code/raytracer.cpp.o: \
  /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../object.h \
  /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/mesh.h \
  /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/quad.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h \
  /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/sphere.h \
  /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h \
  /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json.h \

@@ -991,6 +991,7 @@ CMakeFiles/ray.dir/Code/raytracer.cpp.o
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/object.h
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/mesh.h
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/quad.h
+ /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/sphere.h
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json.h
@@ -1908,6 +1909,7 @@ CMakeFiles/ray.dir/Code/shapes/quad.cpp.o
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/hit.h
  /usr/include/c++/11/limits
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/ray.h
+ /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h
 
 CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o
  /mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/sphere.cpp

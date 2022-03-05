@@ -986,6 +986,7 @@ CMakeFiles/ray.dir/Code/raytracer.cpp.o: ../Code/raytracer.cpp \
   ../Code/object.h \
   ../Code/shapes/mesh.h \
   ../Code/shapes/quad.h \
+  ../Code/shapes/triangle.h \
   ../Code/shapes/sphere.h \
   ../Code/shapes/triangle.h \
   ../Code/json/json.h \
@@ -1898,7 +1899,8 @@ CMakeFiles/ray.dir/Code/shapes/quad.cpp.o: ../Code/shapes/quad.cpp \
   /usr/include/c++/11/bits/vector.tcc \
   ../Code/hit.h \
   /usr/include/c++/11/limits \
-  ../Code/ray.h
+  ../Code/ray.h \
+  ../Code/shapes/triangle.h
 
 CMakeFiles/ray.dir/Code/shapes/sphere.cpp.o: ../Code/shapes/sphere.cpp \
   /usr/include/stdc-predef.h \

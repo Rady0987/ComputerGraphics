@@ -155,4 +155,5 @@ CMakeFiles/ray.dir/Code/shapes/quad.cpp.o: \
  /usr/include/c++/11/bits/vector.tcc \
  /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../hit.h \
  /usr/include/c++/11/limits \
- /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../ray.h
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../ray.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h
