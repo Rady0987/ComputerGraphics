@@ -1,8 +1,8 @@
 CMakeFiles/ray.dir/Code/triple.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json_fwd.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json_fwd.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -150,7 +150,7 @@ CMakeFiles/ray.dir/Code/triple.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

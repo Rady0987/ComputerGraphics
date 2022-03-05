@@ -1,8 +1,8 @@
 CMakeFiles/ray.dir/Code/objloader.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/objloader.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/objloader.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/objloader.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/vertex.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/objloader.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/vertex.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

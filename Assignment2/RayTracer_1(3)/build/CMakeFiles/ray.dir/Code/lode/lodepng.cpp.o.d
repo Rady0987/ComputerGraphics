@@ -1,7 +1,7 @@
 CMakeFiles/ray.dir/Code/lode/lodepng.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/lode/lodepng.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/lode/lodepng.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/lode/lodepng.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/lode/lodepng.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \

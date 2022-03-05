@@ -1,11 +1,11 @@
 CMakeFiles/ray.dir/Code/main.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/main.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/main.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/scene.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/light.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json_fwd.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/scene.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/light.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json_fwd.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -153,11 +153,11 @@ CMakeFiles/ray.dir/Code/main.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/object.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/material.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/hit.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/object.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/material.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/hit.h \
  /usr/include/c++/11/limits \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/ray.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/ray.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \

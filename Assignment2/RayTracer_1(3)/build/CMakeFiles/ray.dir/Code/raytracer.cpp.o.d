@@ -1,11 +1,11 @@
 CMakeFiles/ray.dir/Code/raytracer.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/scene.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/light.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json_fwd.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/raytracer.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/scene.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/light.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/triple.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json_fwd.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -153,19 +153,19 @@ CMakeFiles/ray.dir/Code/raytracer.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/object.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/material.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/hit.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/object.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/material.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/hit.h \
  /usr/include/c++/11/limits \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/ray.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/image.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../object.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/mesh.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/quad.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/sphere.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h \
- /home/olav/compg/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/ray.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/image.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/cylinder.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/../object.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/mesh.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/quad.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/sphere.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/shapes/triangle.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment2/RayTracer_1(3)/Code/json/json.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
