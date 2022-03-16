@@ -1,0 +1,3 @@
+/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles/ray.dir
+/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles/edit_cache.dir
+/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles/rebuild_cache.dir

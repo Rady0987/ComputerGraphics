@@ -61,13 +61,26 @@ Color Scene::trace(Ray const &ray, unsigned depth)
 
     // Add diffuse and specular components.
     for (auto const &light : lights)
-    {
+    {   
+        int shadow = 1;
+        if (renderShadows == true) {
+            // cast a shadow ray and check whethet it hit an object
+            Ray shadowRay = Ray(hit + shadingN * epsilon, (light->position - hit)); // create the shadow ray
+            pair<ObjectPtr, Hit> shadowRayHit = castRay(shadowRay); // run the ray and get feedback on object hit
+            Point shadowHit = shadowRay.at(shadowRayHit.second.t); // capture the point of ray hit
+            Vector shadowToObj = shadowHit - hit; // create the vector from shadow to the object 
+            Vector shadowToLight = light->position - hit; // create the vector from the shadow to the light
+            if (shadowToObj.length() > shadowToLight.length()) { // if the light is closer than the object, it has no shadow
+                shadowRayHit.first = nullptr; // dont draw shadow from the distant objectS
+            }           
+            shadow = (shadowRayHit.first == nullptr ? 1 : 0); // dont add light in the shadow area
+        }
         Vector L = (light->position - hit).normalized();
 
         // Add diffuse.
         double dotNormal = shadingN.dot(L);
         double diffuse = std::max(dotNormal, 0.0);
-        color += diffuse * material.kd * light->color * matColor;
+        color += shadow * diffuse * material.kd * light->color * matColor;
 
         // Add specular.
         if(dotNormal > 0)
@@ -76,7 +89,7 @@ Color Scene::trace(Ray const &ray, unsigned depth)
             double specAngle = std::max(reflectDir.dot(V), 0.0);
             double specular = std::pow(specAngle, material.n);
 
-            color += specular * material.ks * light->color;
+            color += shadow * specular * material.ks * light->color;
         }
     }
 
