@@ -98,9 +98,12 @@ Color Scene::trace(Ray const &ray, unsigned depth)
         // The object is transparent, and thus refracts and reflects light.
         // Use Schlick's approximation to determine the ratio between the two.
     }
-    else if (depth > 0 and material.ks > 0.0)
+    else if (depth > 0 and material.ks > 0.0) // 3.2
     {
         // The object is not transparent, but opaque.
+        Vector reflectDir = reflect(-V, shadingN); // create new reflection direction
+        Ray bouncedRay = Ray(hit + shadingN * epsilon, reflectDir); // make a ray out of that
+        color += trace(bouncedRay, depth - 1) * material.ks; // trace the ray
     }
 
     return color;
