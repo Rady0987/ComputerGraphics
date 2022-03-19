@@ -1,0 +1,3 @@
+# ignore ALL files in the build and CMakeFiles directory
+CMakeFiles/
+build/

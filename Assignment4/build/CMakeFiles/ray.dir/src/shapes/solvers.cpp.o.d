@@ -1,7 +1,7 @@
 CMakeFiles/ray.dir/src/shapes/solvers.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/solvers.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/solvers.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/solvers.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/solvers.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

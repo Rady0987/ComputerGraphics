@@ -34,7 +34,7 @@ class Scene
         std::pair<ObjectPtr, Hit> castRay(Ray const &ray) const;
 
         // trace a ray into the scene and return the color
-        Color trace(Ray const &ray, unsigned depth);
+        Color trace(Ray const &ray, unsigned depth, bool inside);
 
         // render the scene to the given image
         void render(Image &img);

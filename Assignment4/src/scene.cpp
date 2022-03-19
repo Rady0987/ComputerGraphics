@@ -29,7 +29,7 @@ pair<ObjectPtr, Hit> Scene::castRay(Ray const &ray) const
     return pair<ObjectPtr, Hit>(obj, min_hit);
 }
 
-Color Scene::trace(Ray const &ray, unsigned depth)
+Color Scene::trace(Ray const &ray, unsigned depth, bool inside)
 {
     pair<ObjectPtr, Hit> mainhit = castRay(ray);
     ObjectPtr obj = mainhit.first;
@@ -97,13 +97,40 @@ Color Scene::trace(Ray const &ray, unsigned depth)
     {
         // The object is transparent, and thus refracts and reflects light.
         // Use Schlick's approximation to determine the ratio between the two.
+        double nt, ni, kr0, kr, kt;
+        Triple t(0, 0, 0);
+
+        Ray reflection(hit + epsilon * shadingN, reflect(ray.D, shadingN));
+
+        // Check if the ray is inside the object or not, to assign the refractive index
+        if(inside) {
+            ni = material.nt;
+            nt = 1.0;
+        
+        } else {
+            ni = 1.0;
+            nt = material.nt;
+        }
+
+        // Calculations needed for Schlick's approximation
+        kr0 = pow((ni - nt)/(ni + nt), 2);
+        kr = kr0 + (1.0 - kr0) * pow((1.0 - ((-ray.D).dot(shadingN))), 5);
+        kt = 1.0 - kr;
+
+        // Implementation of Snell's Law
+        double phiAngle = 1.0 - (ni * ni * (1.0 - pow((ray.D).dot(shadingN), 2)) / (nt * nt));
+        t = (ni * (ray.D - (ray.D).dot(shadingN) * shadingN) / nt) - shadingN * sqrt(phiAngle);
+
+        Ray refraction(hit - epsilon * shadingN, t.normalized());
+    	color += trace(reflection, depth - 1, inside) * kr + trace(refraction, depth - 1, not inside) * kt;
+
     }
     else if (depth > 0 and material.ks > 0.0) // 3.2
     {
         // The object is not transparent, but opaque.
         Vector reflectDir = reflect(-V, shadingN); // create new reflection direction
         Ray bouncedRay = Ray(hit + shadingN * epsilon, reflectDir); // make a ray out of that
-        color += trace(bouncedRay, depth - 1) * material.ks; // trace the ray
+        color += trace(bouncedRay, depth - 1, inside) * material.ks; // trace the ray
     }
 
     return color;
@@ -119,7 +146,7 @@ void Scene::render(Image &img)
         {
             Point pixel(x + 0.5, h - 1 - y + 0.5, 0);
             Ray ray(eye, (pixel - eye).normalized());
-            Color col = trace(ray, recursionDepth);
+            Color col = trace(ray, recursionDepth, false);
             col.clamp();
             img(x, y) = col;
         }

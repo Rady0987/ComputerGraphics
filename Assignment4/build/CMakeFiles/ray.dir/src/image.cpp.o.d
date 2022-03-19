@@ -1,9 +1,9 @@
 CMakeFiles/ray.dir/src/image.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment4/src/image.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/image.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/image.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/triple.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/json/json_fwd.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/image.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/triple.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/json/json_fwd.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -151,7 +151,7 @@ CMakeFiles/ray.dir/src/image.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/olav/compg/ComputerGraphics/Assignment4/src/lode/lodepng.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/lode/lodepng.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \

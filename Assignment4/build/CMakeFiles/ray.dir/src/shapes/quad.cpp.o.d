@@ -1,12 +1,12 @@
 CMakeFiles/ray.dir/src/shapes/quad.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/quad.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/quad.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/quad.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../object.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../material.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../image.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../triple.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../json/json_fwd.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/quad.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../object.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../material.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../image.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../triple.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../json/json_fwd.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -154,9 +154,9 @@ CMakeFiles/ray.dir/src/shapes/quad.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../hit.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../hit.h \
  /usr/include/c++/11/limits \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../ray.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../ray.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

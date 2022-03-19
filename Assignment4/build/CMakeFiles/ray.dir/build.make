@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/olav/compg/ComputerGraphics/Assignment4
+CMAKE_SOURCE_DIR = "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/olav/compg/ComputerGraphics/Assignment4/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ray.dir/depend.make
@@ -72,142 +72,142 @@ include CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/image.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/image.cpp.o: ../src/image.cpp
 CMakeFiles/ray.dir/src/image.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray.dir/src/image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/image.cpp.o -MF CMakeFiles/ray.dir/src/image.cpp.o.d -o CMakeFiles/ray.dir/src/image.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray.dir/src/image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/image.cpp.o -MF CMakeFiles/ray.dir/src/image.cpp.o.d -o CMakeFiles/ray.dir/src/image.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/image.cpp"
 
 CMakeFiles/ray.dir/src/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/image.cpp > CMakeFiles/ray.dir/src/image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/image.cpp" > CMakeFiles/ray.dir/src/image.cpp.i
 
 CMakeFiles/ray.dir/src/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/image.cpp -o CMakeFiles/ray.dir/src/image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/image.cpp" -o CMakeFiles/ray.dir/src/image.cpp.s
 
 CMakeFiles/ray.dir/src/lode/lodepng.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/lode/lodepng.cpp.o: ../src/lode/lodepng.cpp
 CMakeFiles/ray.dir/src/lode/lodepng.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ray.dir/src/lode/lodepng.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/lode/lodepng.cpp.o -MF CMakeFiles/ray.dir/src/lode/lodepng.cpp.o.d -o CMakeFiles/ray.dir/src/lode/lodepng.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/lode/lodepng.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ray.dir/src/lode/lodepng.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/lode/lodepng.cpp.o -MF CMakeFiles/ray.dir/src/lode/lodepng.cpp.o.d -o CMakeFiles/ray.dir/src/lode/lodepng.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/lode/lodepng.cpp"
 
 CMakeFiles/ray.dir/src/lode/lodepng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/lode/lodepng.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/lode/lodepng.cpp > CMakeFiles/ray.dir/src/lode/lodepng.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/lode/lodepng.cpp" > CMakeFiles/ray.dir/src/lode/lodepng.cpp.i
 
 CMakeFiles/ray.dir/src/lode/lodepng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/lode/lodepng.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/lode/lodepng.cpp -o CMakeFiles/ray.dir/src/lode/lodepng.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/lode/lodepng.cpp" -o CMakeFiles/ray.dir/src/lode/lodepng.cpp.s
 
 CMakeFiles/ray.dir/src/main.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/ray.dir/src/main.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ray.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/main.cpp.o -MF CMakeFiles/ray.dir/src/main.cpp.o.d -o CMakeFiles/ray.dir/src/main.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ray.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/main.cpp.o -MF CMakeFiles/ray.dir/src/main.cpp.o.d -o CMakeFiles/ray.dir/src/main.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/main.cpp"
 
 CMakeFiles/ray.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/main.cpp > CMakeFiles/ray.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/main.cpp" > CMakeFiles/ray.dir/src/main.cpp.i
 
 CMakeFiles/ray.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/main.cpp -o CMakeFiles/ray.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/main.cpp" -o CMakeFiles/ray.dir/src/main.cpp.s
 
 CMakeFiles/ray.dir/src/objloader.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/objloader.cpp.o: ../src/objloader.cpp
 CMakeFiles/ray.dir/src/objloader.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ray.dir/src/objloader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/objloader.cpp.o -MF CMakeFiles/ray.dir/src/objloader.cpp.o.d -o CMakeFiles/ray.dir/src/objloader.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/objloader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ray.dir/src/objloader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/objloader.cpp.o -MF CMakeFiles/ray.dir/src/objloader.cpp.o.d -o CMakeFiles/ray.dir/src/objloader.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/objloader.cpp"
 
 CMakeFiles/ray.dir/src/objloader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/objloader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/objloader.cpp > CMakeFiles/ray.dir/src/objloader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/objloader.cpp" > CMakeFiles/ray.dir/src/objloader.cpp.i
 
 CMakeFiles/ray.dir/src/objloader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/objloader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/objloader.cpp -o CMakeFiles/ray.dir/src/objloader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/objloader.cpp" -o CMakeFiles/ray.dir/src/objloader.cpp.s
 
 CMakeFiles/ray.dir/src/raytracer.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/raytracer.cpp.o: ../src/raytracer.cpp
 CMakeFiles/ray.dir/src/raytracer.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ray.dir/src/raytracer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/raytracer.cpp.o -MF CMakeFiles/ray.dir/src/raytracer.cpp.o.d -o CMakeFiles/ray.dir/src/raytracer.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/raytracer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ray.dir/src/raytracer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/raytracer.cpp.o -MF CMakeFiles/ray.dir/src/raytracer.cpp.o.d -o CMakeFiles/ray.dir/src/raytracer.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/raytracer.cpp"
 
 CMakeFiles/ray.dir/src/raytracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/raytracer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/raytracer.cpp > CMakeFiles/ray.dir/src/raytracer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/raytracer.cpp" > CMakeFiles/ray.dir/src/raytracer.cpp.i
 
 CMakeFiles/ray.dir/src/raytracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/raytracer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/raytracer.cpp -o CMakeFiles/ray.dir/src/raytracer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/raytracer.cpp" -o CMakeFiles/ray.dir/src/raytracer.cpp.s
 
 CMakeFiles/ray.dir/src/scene.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/scene.cpp.o: ../src/scene.cpp
 CMakeFiles/ray.dir/src/scene.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ray.dir/src/scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/scene.cpp.o -MF CMakeFiles/ray.dir/src/scene.cpp.o.d -o CMakeFiles/ray.dir/src/scene.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ray.dir/src/scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/scene.cpp.o -MF CMakeFiles/ray.dir/src/scene.cpp.o.d -o CMakeFiles/ray.dir/src/scene.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/scene.cpp"
 
 CMakeFiles/ray.dir/src/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/scene.cpp > CMakeFiles/ray.dir/src/scene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/scene.cpp" > CMakeFiles/ray.dir/src/scene.cpp.i
 
 CMakeFiles/ray.dir/src/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/scene.cpp -o CMakeFiles/ray.dir/src/scene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/scene.cpp" -o CMakeFiles/ray.dir/src/scene.cpp.s
 
 CMakeFiles/ray.dir/src/shapes/quad.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/shapes/quad.cpp.o: ../src/shapes/quad.cpp
 CMakeFiles/ray.dir/src/shapes/quad.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ray.dir/src/shapes/quad.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/shapes/quad.cpp.o -MF CMakeFiles/ray.dir/src/shapes/quad.cpp.o.d -o CMakeFiles/ray.dir/src/shapes/quad.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/quad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ray.dir/src/shapes/quad.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/shapes/quad.cpp.o -MF CMakeFiles/ray.dir/src/shapes/quad.cpp.o.d -o CMakeFiles/ray.dir/src/shapes/quad.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/quad.cpp"
 
 CMakeFiles/ray.dir/src/shapes/quad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/shapes/quad.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/quad.cpp > CMakeFiles/ray.dir/src/shapes/quad.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/quad.cpp" > CMakeFiles/ray.dir/src/shapes/quad.cpp.i
 
 CMakeFiles/ray.dir/src/shapes/quad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/shapes/quad.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/quad.cpp -o CMakeFiles/ray.dir/src/shapes/quad.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/quad.cpp" -o CMakeFiles/ray.dir/src/shapes/quad.cpp.s
 
 CMakeFiles/ray.dir/src/shapes/solvers.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/shapes/solvers.cpp.o: ../src/shapes/solvers.cpp
 CMakeFiles/ray.dir/src/shapes/solvers.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ray.dir/src/shapes/solvers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/shapes/solvers.cpp.o -MF CMakeFiles/ray.dir/src/shapes/solvers.cpp.o.d -o CMakeFiles/ray.dir/src/shapes/solvers.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/solvers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ray.dir/src/shapes/solvers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/shapes/solvers.cpp.o -MF CMakeFiles/ray.dir/src/shapes/solvers.cpp.o.d -o CMakeFiles/ray.dir/src/shapes/solvers.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/solvers.cpp"
 
 CMakeFiles/ray.dir/src/shapes/solvers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/shapes/solvers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/solvers.cpp > CMakeFiles/ray.dir/src/shapes/solvers.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/solvers.cpp" > CMakeFiles/ray.dir/src/shapes/solvers.cpp.i
 
 CMakeFiles/ray.dir/src/shapes/solvers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/shapes/solvers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/solvers.cpp -o CMakeFiles/ray.dir/src/shapes/solvers.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/solvers.cpp" -o CMakeFiles/ray.dir/src/shapes/solvers.cpp.s
 
 CMakeFiles/ray.dir/src/shapes/sphere.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/shapes/sphere.cpp.o: ../src/shapes/sphere.cpp
 CMakeFiles/ray.dir/src/shapes/sphere.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ray.dir/src/shapes/sphere.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/shapes/sphere.cpp.o -MF CMakeFiles/ray.dir/src/shapes/sphere.cpp.o.d -o CMakeFiles/ray.dir/src/shapes/sphere.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ray.dir/src/shapes/sphere.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/shapes/sphere.cpp.o -MF CMakeFiles/ray.dir/src/shapes/sphere.cpp.o.d -o CMakeFiles/ray.dir/src/shapes/sphere.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/sphere.cpp"
 
 CMakeFiles/ray.dir/src/shapes/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/shapes/sphere.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/sphere.cpp > CMakeFiles/ray.dir/src/shapes/sphere.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/sphere.cpp" > CMakeFiles/ray.dir/src/shapes/sphere.cpp.i
 
 CMakeFiles/ray.dir/src/shapes/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/shapes/sphere.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/sphere.cpp -o CMakeFiles/ray.dir/src/shapes/sphere.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/shapes/sphere.cpp" -o CMakeFiles/ray.dir/src/shapes/sphere.cpp.s
 
 CMakeFiles/ray.dir/src/triple.cpp.o: CMakeFiles/ray.dir/flags.make
 CMakeFiles/ray.dir/src/triple.cpp.o: ../src/triple.cpp
 CMakeFiles/ray.dir/src/triple.cpp.o: CMakeFiles/ray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ray.dir/src/triple.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/triple.cpp.o -MF CMakeFiles/ray.dir/src/triple.cpp.o.d -o CMakeFiles/ray.dir/src/triple.cpp.o -c /home/olav/compg/ComputerGraphics/Assignment4/src/triple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ray.dir/src/triple.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray.dir/src/triple.cpp.o -MF CMakeFiles/ray.dir/src/triple.cpp.o.d -o CMakeFiles/ray.dir/src/triple.cpp.o -c "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/triple.cpp"
 
 CMakeFiles/ray.dir/src/triple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ray.dir/src/triple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olav/compg/ComputerGraphics/Assignment4/src/triple.cpp > CMakeFiles/ray.dir/src/triple.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/triple.cpp" > CMakeFiles/ray.dir/src/triple.cpp.i
 
 CMakeFiles/ray.dir/src/triple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ray.dir/src/triple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olav/compg/ComputerGraphics/Assignment4/src/triple.cpp -o CMakeFiles/ray.dir/src/triple.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/src/triple.cpp" -o CMakeFiles/ray.dir/src/triple.cpp.s
 
 # Object files for target ray
 ray_OBJECTS = \
@@ -237,7 +237,7 @@ ray: CMakeFiles/ray.dir/src/shapes/sphere.cpp.o
 ray: CMakeFiles/ray.dir/src/triple.cpp.o
 ray: CMakeFiles/ray.dir/build.make
 ray: CMakeFiles/ray.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ray"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ray.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles/ray.dir/clean:
 .PHONY : CMakeFiles/ray.dir/clean
 
 CMakeFiles/ray.dir/depend:
-	cd /home/olav/compg/ComputerGraphics/Assignment4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/olav/compg/ComputerGraphics/Assignment4 /home/olav/compg/ComputerGraphics/Assignment4 /home/olav/compg/ComputerGraphics/Assignment4/build /home/olav/compg/ComputerGraphics/Assignment4/build /home/olav/compg/ComputerGraphics/Assignment4/build/CMakeFiles/ray.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4" "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4" "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build" "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build" "/mnt/c/Users/rady0/Documents/Computer Graphics/ComputerGraphics/Assignment4/build/CMakeFiles/ray.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ray.dir/depend
 

@@ -1,11 +1,11 @@
 CMakeFiles/ray.dir/src/raytracer.cpp.o: \
- /home/olav/compg/ComputerGraphics/Assignment4/src/raytracer.cpp \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/raytracer.cpp \
  /usr/include/stdc-predef.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/raytracer.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/scene.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/light.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/triple.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/json/json_fwd.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/raytracer.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/scene.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/light.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/triple.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/json/json_fwd.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -153,16 +153,16 @@ CMakeFiles/ray.dir/src/raytracer.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/olav/compg/ComputerGraphics/Assignment4/src/object.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/material.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/image.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/hit.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/object.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/material.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/image.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/hit.h \
  /usr/include/c++/11/limits \
- /home/olav/compg/ComputerGraphics/Assignment4/src/ray.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/quad.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/../object.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/shapes/sphere.h \
- /home/olav/compg/ComputerGraphics/Assignment4/src/json/json.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/ray.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/quad.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/../object.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/shapes/sphere.h \
+ /mnt/c/Users/rady0/Documents/Computer\ Graphics/ComputerGraphics/Assignment4/src/json/json.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
